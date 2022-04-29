@@ -21,7 +21,7 @@ Parameters:
   s3BucketName: 
     AllowedPattern: '[a-zA-Z][a-zA-Z0-9]*'
     ConstraintDescription: Must begin with a letter and contain only alphanumeric characters
-    Default: a
+    Default: prod
     Description: Bucket name suffix
     Type: String
 
